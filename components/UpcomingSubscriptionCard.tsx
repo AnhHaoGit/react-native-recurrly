@@ -11,7 +11,6 @@ const UpcomingSubscriptionCard = ({
 }: UpcomingSubscription) => {
   return (
     <View className="upcoming-card">
-      <View className="upcoming-row"></View>
       <Image source={icon} className="upcoming-icon" />
       <View>
         <Text className="upcoming-price">
